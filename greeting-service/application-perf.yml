@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: greeting-service
+  greeting-service:
+    greeting: "Olá"
+    default-value: "perf"
+  cloud:
+    config:
+      enabled: false
+
+management:
+  endpoints:
+    health:
+      enable: true
+      show-details: always
+    prometheus:
+      enable: true
+    metrics:
+      enable: true
+    web:
+      exposure:
+        include: 'health,metrics,prometheus'
+        
+
+
+
+    
+
+      
+      
+    
+    
