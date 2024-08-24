@@ -2,7 +2,7 @@ spring:
   application:
     name: greeting-service
   greeting-service:
-    greeting: "Olá"
+    greeting: "Pronto"
     default-value: "dev"
   cloud:
     config:
